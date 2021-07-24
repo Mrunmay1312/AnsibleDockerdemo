@@ -1,4 +1,4 @@
 From tomcat
-ADD addressbook.war /etc/tomcat/webapps
+ADD addressbook.war /usr/share/tomcat/webapps
 EXPOSE 8585
 CMD ["catalina.sh", "run"]
